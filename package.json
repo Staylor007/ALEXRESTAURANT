@@ -1,0 +1,19 @@
+{
+  "name": "delivery-app",
+  "version": "1.0.0",
+  "description": "Delivery app similar to Uber Eats with users, delivery partners, and admin",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "npm run dev --workspaces",
+    "build": "npm run build --workspaces",
+    "start": "npm start --workspaces",
+    "test": "npm test --workspaces"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
